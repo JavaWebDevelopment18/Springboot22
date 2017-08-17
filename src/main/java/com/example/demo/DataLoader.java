@@ -16,7 +16,6 @@ public class DataLoader implements CommandLineRunner {
     @Autowired
     RoleRepository roleRepository;
 
-
     @Override
     public void run(String... strings) throws Exception {
         System.out.println("Loading data...");
